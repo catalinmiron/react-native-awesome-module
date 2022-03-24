@@ -10,10 +10,12 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/catalinmiron/react-native-awesome-module.git", :tag => "#{s.version}" }
+  s.platforms    = { :ios => "11.0" }
+  # s.source       = { :git => "https://github.com/catalinmiron/react-native-awesome-module.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/catalinmiron/react-native-expo.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
+  s.dependency 'ARCore/AugmentedFaces', '~> 1.30.0'
 end

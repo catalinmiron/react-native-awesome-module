@@ -1,6 +1,7 @@
 {
   "name": "react-native-awesome-module",
   "version": "0.1.0",
+  "private": true,
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
